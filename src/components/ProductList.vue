@@ -38,6 +38,9 @@ export default {
   mounted () {
     new Swiper('.swiper-container', {
       loop: false,
+      autoplay: {
+        delay: 1500
+      },
       slidesPerView: 3,
       spaceBetween: 30,
       observer: true,

@@ -26,6 +26,7 @@ export default {
   outline: none
   border: none
   box-sizing: border-box
+  font-family: 'Microsoft JhengHei'
 
 #app
   +size(100%)
