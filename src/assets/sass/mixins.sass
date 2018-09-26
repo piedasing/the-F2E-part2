@@ -1,0 +1,17 @@
+@mixin center()
+  display: flex
+  justify-content: center
+  align-items: center
+
+@mixin size($w, $h:$w)
+  width: $w
+  height: $h
+
+@mixin bgset($w, $h:$w)
+  +size($w, $h)
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+
+$primary: #3F5D45
+$secondary: #EAF0ED
